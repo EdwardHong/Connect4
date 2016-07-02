@@ -2,7 +2,7 @@ package edu.nyu.pqs.connectfour;
 /**
  * This is a class that contains the main method to run the Connect4 game.
  * Once the game is started, the user can choose between single player mode,
- * and multiplayer mode.
+ * and multi-player mode.
  * 
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
