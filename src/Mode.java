@@ -2,7 +2,7 @@ package edu.nyu.pqs.connectfour;
 
 /**
  * This is an enum that can take two values between single-player mode and multi-player mode.
- * The value of the mode is determined when a start button (either START, or PLAY AI) is pressed.
+ * The values of the mode is determined when a start button (either START, or PLAY AI) is pressed.
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
  */
