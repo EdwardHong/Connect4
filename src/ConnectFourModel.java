@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * This is the model for Connect4 game that contains all the logics of the actual game. 
- * It notifies the views of its change in the state.
+ * It notifies the view of its change in the state.
  * 
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
