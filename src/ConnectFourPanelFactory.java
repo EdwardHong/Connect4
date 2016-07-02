@@ -16,7 +16,7 @@ import javax.swing.JTextArea;
 
 /**
  * This is a factory class that creates different components responsible for the graphical
- * part of the game.
+ * parts of the game.
  *
  * @author  Ssangwook Hong
  * @date    Apr 24 2016 
