@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 /**
  * This is a view class that is notified of the actions in the model and update the
- * graphical part of the game. 
+ * graphical parts of the game. 
  * 
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
