@@ -4,7 +4,7 @@ import java.awt.Color;
 
 /**
  * This is an enum that indicates the current player of the game. It consists of string 
- * representing the name, the color, and java.awt.Color for the graphics. 
+ * representing name, the color, and java.awt.Color for the graphics. 
  * 
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
