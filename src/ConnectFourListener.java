@@ -1,8 +1,7 @@
 package edu.nyu.pqs.connectfour;
 
 /**
- * This is an interface that contains methods for the ConnectFourView which will implement
- * ConnectFourListener.
+ * This is an interface that contains several methods for the ConnectFourView which will implem nt ConnectFourListener.
  * 
  * @author  Ssangwook Hong
  * @date    Apr 24 2016
