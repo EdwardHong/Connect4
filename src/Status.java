@@ -1,7 +1,7 @@
 package edu.nyu.pqs.connectfour;
 
 /**
- * This is an enum that can take two values between win or drawn.
+ * This is an enum that takes two values between win or drawn.
  * The status WIN, depending on whether its the player's turn or not, can display the message
  * for winner or loser.
  * @author  Ssangwook Hong
