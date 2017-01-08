@@ -23,7 +23,7 @@ import javax.swing.JTextArea;
  */
 public class ConnectFourPanelFactory {
 
-  /**
+  /*
    * This is the abstract class that 3 different panels of the game extends.
    * It extends JPanel and the layout of the Panel can be selected along with
    * the model and view used to set up the actionlistener for corresponding buttons. 
@@ -60,7 +60,8 @@ public class ConnectFourPanelFactory {
       ActionListener listener = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent event) {
-            if (event.getActionCommand().toString().equals("Play AI Mode")) {            
+            if (event.getActionCommand().equals("Play AI Mode")) {
+              //needs to be changed
               model.startGame(Mode.SINGLE);             
             }
             else {
