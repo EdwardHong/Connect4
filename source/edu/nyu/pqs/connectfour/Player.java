@@ -14,7 +14,7 @@ public enum Player {
   ONE("Player One", "BLUE", Color.BLUE),
   TWO("Player Two", "RED", Color.RED),
   AI("Alpha 4", "GREEN", Color.GREEN);
-  
+  //Comment player
   private final String name;
   private final String colorName;
   private final Color color;
