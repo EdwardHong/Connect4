@@ -48,18 +48,15 @@ public class ConnectFourView implements ConnectFourListener{
   }
 
 
-  @Override
   public void gameStarted(Mode mode) {
     headerPanel.setText("You are "+currentPlayer+"\n");
     headerPanel.setText(mode.toString()+" starting now.....\n");   
   }
-  
-  @Override
+
   public void updateBoard(Player[][] board, Player player, int row, int column) {
     boardPanel.changeDiscColorAt(player, row, column);
   }
 
-  @Override
   public void gameOver(Status status, Player player) {
     if (status == Status.WIN) {
       if (player == currentPlayer)
@@ -75,28 +72,24 @@ public class ConnectFourView implements ConnectFourListener{
     }
     controlPanel.disableDiscButtons();
   }
- 
-  @Override
+
   public void clearBoard() {
     controlPanel.enableDiscButtons();
     boardPanel.resetBoardColor();
   }
-  
-  @Override
+
   public void alertColumnIsFull(Player player) {
     if (player == currentPlayer) {
       JOptionPane.showMessageDialog(frame, "This column is already full.");      
     }
   }
-  
-  @Override
+
   public void alertNotYourTurn(Player player) {
     if (player == currentPlayer) {
       JOptionPane.showMessageDialog(frame, "Please wait for your opponent to go first.");      
     }
   }
-  
-  @Override
+
   public void disposeFrame() {
     frame.dispose();
   }
